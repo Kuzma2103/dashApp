@@ -105,12 +105,19 @@ body {
     }
 }
 
-
-
-
-
-
 // CUSTOM CLASS
 .bottom-border {
     border-bottom: 1px groove $primary-color;
+}
+
+
+@include mediaMD {
+    .sidebar {
+        position: static;
+        height: auto;
+    }
+
+    .top-navbar {
+        position: static;
+    }
 }

@@ -51,5 +51,15 @@ body {
     .top-navbar .icon-parent i:hover {
       color: #083f96; }
 
+#cards .card-common {
+  box-shadow: 2px 3px 15px #999;
+  transition: all ease-out .5s; }
+  #cards .card-common:hover {
+    box-shadow: 2px 5px 20px #111;
+    transform: translateY(-1px); }
+
+#logs-payments .task-border {
+  border-left: 3px solid #4287f5; }
+
 .bottom-border {
   border-bottom: 1px groove #eee; }

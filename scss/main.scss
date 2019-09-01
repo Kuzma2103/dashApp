@@ -83,8 +83,27 @@ body {
     }
 }
 
+// CARDS
+#cards {
 
+    .card-common {
+        box-shadow: 2px 3px 15px #999;       
+        @include easeOut;
 
+        &:hover {
+            @include boxShadow;
+            transform: translateY(-1px);
+        }
+    }
+}
+
+// LOGS AND PAYMENTS
+#logs-payments {
+
+    .task-border {
+        border-left: 3px solid $secondary-color;
+    }
+}
 
 
 

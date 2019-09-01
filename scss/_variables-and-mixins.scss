@@ -1,0 +1,15 @@
+// VARIBLES
+$primary-color: #eee;
+$secondary-color: #4287f5;
+$hover-color: #f66436;
+$box-shadow-color: #999;
+
+
+// MIXINS
+@mixin easeOut {
+    transition: all ease-out .5s;
+}
+
+@mixin boxShadow {
+    box-shadow: 2px 5px 20px #111;
+}

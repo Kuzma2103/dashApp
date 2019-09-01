@@ -1,2 +1,55 @@
 body {
-  background: #444; }
+  background: #eee;
+  font-family: 'Titillium Web', sans-serif; }
+
+.sidebar {
+  height: 100vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), url(../img/sidebar-bg.jpg) no-repeat center center/cover;
+  box-shadow: 5px 7px 25px #999; }
+  .sidebar-link {
+    transition: all ease-out .5s; }
+    .sidebar-link:hover {
+      background-color: #4287f5;
+      border-radius: 5px; }
+  .sidebar .current {
+    background-color: #4287f5;
+    border-radius: 7px;
+    box-shadow: 2px 5px 20px #111; }
+    .sidebar .current:hover {
+      background-color: #f66436;
+      border-radius: 7px;
+      box-shadow: 2px 5px 20px #111;
+      transform: translateY(-1px); }
+
+.top-navbar {
+  background-color: #4287f5; }
+  .top-navbar .search-input {
+    background: transparent;
+    border: none;
+    color: #052a66;
+    border-radius: 0;
+    border-bottom: 2px solid #f66436;
+    transition: all ease-out .5s; }
+    .top-navbar .search-input:focus {
+      background: transparent;
+      box-shadow: none;
+      border-bottom: 2px solid #cc3809; }
+    .top-navbar .search-input::placeholder {
+      color: #eee; }
+  .top-navbar .search-button {
+    background-color: #eee;
+    color: #f66436;
+    border-radius: 50%;
+    padding: 10px 16px;
+    transition: all ease-out .5s; }
+    .top-navbar .search-button:hover {
+      background: #d5d5d5;
+      transform: translateY(-1px); }
+  .top-navbar .icon-parent i {
+    color: #052a66;
+    transition: all ease-out .5s; }
+    .top-navbar .icon-parent i:hover {
+      color: #083f96; }
+
+.bottom-border {
+  border-bottom: 1px groove #eee; }
